@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Software Engineer Portfolio</title>
+    <style>
+        img{
+            border-radius:50%;
+            border:5px solid #bbb;
+            align-items: center;
+        }
+    </style>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <header>
+        <center>
+        <div class="image-wrapper">
+            <img src="D:\html\kavya1.jpg" width="100" height="100" alt="Centered Image" class="image-circle">
+        </div>
+        </center>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4 text-white text-center">
+        <h1 class="text-3xl font-bold">[Kavya H N] | Web Developer</h1>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-white py-20 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-2">Hi, I'm [Kavya H N]</h2>
+            <p class="text-xl">Welcome to my portfolio where I showcase my projects and share my journey in the world of web development.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-5">About Me</h2>
+            <p class="text-lg text-gray-700 max-w-2xl mx-auto">I'm a passionate web developer with a love for building beautiful, responsive websites and web applications. 
+                With skills in HTML, CSS, JavaScript, and other technologies, I enjoy solving complex problems and continuously learning new things.
+    .</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-gray-200 py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-5">Skills</h2>
+            <div class="grid grid-cols-2 gap-4 max-w-3xl mx-auto">
+                <div class="p-4 bg-white shadow-lg">
+                    <h3 class="text-xl font-semibold">Java</h3>
+                    <p class="text-gray-600">Object-Oriented Programms with java .</p>
+                </div>
+                <div class="p-4 bg-white shadow-lg">
+                    <h3 class="text-xl font-semibold">Python</h3>
+                    <p class="text-gray-600">basics python concept like variables,control Structures,Functionsand modules.</p>
+                </div>
+                <div class="p-4 bg-white shadow-lg">
+                    <h3 class="text-xl font-semibold">SQL</h3>
+                    <p class="text-gray-600">Skilled in MySQL, Manage relational databases.</p>
+                </div>
+                <div class="p-4 bg-white shadow-lg">
+                    <h3 class="text-xl font-semibold">Git & GitHub</h3>
+                    <p class="text-gray-600">Proficient with version control and collaboration tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-5">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Project 1 -->
+                <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold">Project 1: Landing page</h3>
+                    <p class="text-gray-600">A landing page is a standalone web page designed to convert visitors into customers, focused on a specific goal or call-to-action (CTA), typically used for marketing campaigns, product promotions, or service offerings.
+
+                        </p>
+                    <a href="#" class="text-blue-500 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white p-6 shadow-lg">
+                    <h3 class="text-xl font-semibold">Project 2: Temperature Conversion</h3>
+                    <p class="text-gray-600">A temperature conversion tool is a web application or page that allows users to instantly convert temperature values between various units, such as Celsius, Fahrenheit and Kelvin.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="bg-blue-500 text-white py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-5">Contact Me</h2>
+            <form id="contactForm" class="max-w-lg mx-auto space-y-4">
+                <input type="text" id="name" placeholder="Your Name" class="w-full p-3 rounded" required>
+                <input type="email" id="email" placeholder="Your Email" class="w-full p-3 rounded" required>
+                <textarea id="message" placeholder="Your Message" class="w-full p-3 rounded" rows="4" required></textarea>
+                <button type="submit" class="w-full bg-white text-blue-500 p-3 rounded font-bold hover:bg-gray-200">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 [Kavya H N] | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

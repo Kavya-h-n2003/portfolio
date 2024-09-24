@@ -1,0 +1,43 @@
+/* Tailwind base, components, and utilities layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added here */
+@layer base {
+    /* Add custom fonts, resets, or base styles */
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+}
+@layer utilities {
+    .image-circle {
+        @apply rounded-full; /* Make the image circular */
+        object-fit: cover;   /* Ensure the image fits within the circle */
+    }
+    
+    .image-wrapper {
+        @apply flex justify-center items-center; /* Center the image in its container */
+    }
+}
+@layer components {
+    /* Custom component styles */
+    .btn-primary {
+        @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-primary:hover {
+        @apply bg-blue-700;
+    }
+}
+
+@layer utilities {
+    /* Custom utility styles if needed */
+    .shadow-custom {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-shadow {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+}
